@@ -9,7 +9,7 @@ const HotelSchema = new mongoose.Schema({
     location: String,
     rating: Number,
     website: String,
-    phoneNumber: String,
+    phoneNumber: Number,
     checkInTime: String,
     checkOutTime: String,
     amenities: String,
