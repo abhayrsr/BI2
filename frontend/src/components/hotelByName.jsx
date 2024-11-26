@@ -5,9 +5,9 @@ const HotelByName = ({name}) => {
     return (
         <>
             <h2>{name}</h2>
-            <p><strong>Location: </strong>{data.location}</p>
-            <p><strong>Rating: </strong>{data.rating}</p>
-            <p><strong>Price Range: </strong>$$ ({data.priceRange})</p>
+            <p><strong>Location: </strong>{data?.location}</p>
+            <p><strong>Rating: </strong>{data?.rating}</p>
+            <p><strong>Price Range: </strong>$$ ({data?.priceRange})</p>
         </>
     )
 }
